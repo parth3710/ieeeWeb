@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
@@ -16,389 +16,580 @@
 </head>
 
 <body>
-  <!-- header,navbar -->
-
-  <h1 class="head_start" data-aos="fade-down" data-aos-duration="1500">MEET OUR TEAM</h1>
-  <div class="breadcrumbs">
-    <div class="page-next">
-      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="d-inline-block">
-        <ul class="breadcrumb  rounded mb-0">
-          <li class="breadcrumb-item"><a class="gotohome"href="/sac" style="color:black">IEEE SB NITW SAC</a></li> <!-- Link to landing page -->
-          <li class="breadcrumb-item" style="color:black">ABOUT</li>
-          <li class="breadcrumb-item active" aria-current="page" style="color:#2C2891">DEPARTMENTS</li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-
-
-  <section class=team>
-
-    <div class="container-fluid first">
-      <h2 data-aos="fade-up" data-aos-duration="1500">DESIGN</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Lokesh.png" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Lokesh Tejavath</h5>
-
-
+    <!-- header,navbar -->
+    <header class="header mb-3">
+        <div id="top">
+            <div style="padding: 1px 10px;">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a href="https://www.ieeesbnitw.org/" target="_blank" class="logo"><img src="images/ieeesbnitw.png" height="50px;" /></a>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="secname">
+                            <h6><center>IEEE Student Activities Committee, NITW Section</center></h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="http://ieee.org/" target="_blank" class="logo"><img src="images/ieee.gif" height="35" style="right: 20px; float: right;" /></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="\sac" class="navbar-brand home"><img src="images/ieeesbnitw_sblogo.jpg" class="d-md-inline-block" height="60"></a>
+                <div class="navbar-buttons">
+                    <button type="button" data-toggle="collapse" data-target="#navigation" class="btn btn-outline-secondary navbar-toggler"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
+                </div>
+                <div id="navigation" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"><a href="/sac" class="nav-link" id="home">Home</a></li>
+                        <li class="nav-item dropdown menu-large">
+                            <a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link" id="about">About<b class="caret"></b></a>
+                            <ul class="dropdown-menu megamenu">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-3">
+                                            <h5>SAC</h5>
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="nav-item"><a href="about-sac" class="nav-link" id="about_sac">About SAC</a></li>
+                                                <li class="nav-item"><a href="sac-core-team" class="nav-link" id="sac_execom">SAC ExeCom</a></li>
+                                                <li class="nav-item"><a href="sb-team" class="nav-link" id="sb_team">SB Team</a></li>
+                                                <li class="nav-item"><a href="student-branch-details" class="nav-link" id="sb_details">Student Branch Details</a></li>
+                                                <li class="nav-item"><a href="affinitygroups" class="nav-link" id="chapters">Chapters and Affinity Groups</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <h5>IEEE</h5>
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="nav-item"><a href="http://ieee.org/" class="nav-link">IEEE</a></li>
+                                                <li class="nav-item"><a href="https://sac.ieeer10.org/" class="nav-link">IEEE R10 SAC</a></li>
+                                                <li class="nav-item"><a href="https://students.ieee.org/" class="nav-link">IEEE Students</a></li>
+                                                <li class="nav-item"><a href="https://www.ieeesbnitw.org/" class="nav-link">IEEE NITW Student Branch</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <h5>more</h5>
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="nav-item"><a href="https://ieeexplore.ieee.org/Xplore/home.jsp" class="nav-link">IEEE Xplore Digital Library</a>  </li>
+                                                <li class="nav-item"><a href="https://ieee-collabratec.ieee.org/" class="nav-link">Collabratec</a></li>
+                                                <li class="nav-item"><a href="https://ieeextreme.org/" class="nav-link">IEEE Xtreme</a></li>
+                                                <li class="nav-item"><a href="https://www.ieeemadc.org/" class="nav-link">IEEE MADC</a></li>
+                                                <li class="nav-item"><a href="https://www.ieee.org/about/ethics/competition.html" class="nav-link">IEEE Student Ethics</a></li>
+                                                <li class="nav-item"><a href="https://standards.ieee.org/" class="nav-link">IEEE Standards</a></li>
+                                                <li class="nav-item"><a href="https://spectrum.ieee.org/" class="nav-link">IEEE Spectrum</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown menu-large">
+                            <a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link" id="membership-benefits">Membership & Benefits<b class="caret"></b></a>
+                            <ul class="dropdown-menu megamenu">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-3">
+                                            <h5>IEEE Students Membership & Benefits</h5>
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="nav-item"><a href="membership-benefits" class="nav-link" id="benefits">Student Membership Benefits</a></li>
+                                                <li class="nav-item"><a href="IEEE-Membership.pdf" target="_blank" class="nav-link" id="apply">How to apply for IEEE Students Membership</a></li>
+                                                <li class="nav-item"><a href="young-professionals" class="nav-link" id="yp">Young Professionals </a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <h5>Membership Benefits</h5>
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="nav-item"><a href="https://ieee-collabratec.ieee.org/" class="nav-link">Collabratec</a></li>
+                                                <li class="nav-item"><a href="https://students.ieee.org/benefits/" class="nav-link">IEEE Benefits</a></li>
+                                                <li class="nav-item"><a href="https://ieeextreme.org/" class="nav-link">IEEE Xtreme</a></li>
+                                                <li class="nav-item"><a href="https://ieeetv.ieee.org/" class="nav-link">IEEE.tv</a></li>
+                                                <li class="nav-item"><a href="https://www.ieee.org/membership/discounts/index.html" class="nav-link">IEEE Discounts</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-12 col-lg-6">
+                                            <div class="banner">
+                                                <a href="#"><img src="images/banner/future50.jpg" alt="" class="img img-fluid"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown menu-large">
+                            <a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link" id="opportunities">Opportunities<b class="caret"></b></a>
+                            <ul class="dropdown-menu megamenu">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-3">
+                                            <h5>Student Opportunities</h5>
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="nav-item"><a href="sac-award-programs" class="nav-link" id="sac_awards">SAC Award Programs</a></li>
+                                                <li class="nav-item"><a href="student-professional-awareness" class="nav-link" id="awareness">Professional Awareness</a></li>
+                                                <li class="nav-item"><a href="https://students.ieee.org/contests-for-students/" class="nav-link">Contests for Students</a></li>
+                                                <li class="nav-item"><a href="https://students.ieee.org/funding/" class="nav-link">Funding & Grands</a></li>
+                                                <li class="nav-item"><a href="humanitarian-activities" class="nav-link">IEEE Humanitarian Activities</a></li>
+                                                <li class="nav-item"><a href="https://ct.ieee.org/badges-1/" class="nav-link">Badging</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-12 col-lg-9">
+                                            <div class="banner">
+                                                <a href="#"><img src="images/banner/future50.gif" style="height:330px;" alt="" class="img img-fluid"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown menu-large">
+                            <a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link" id="resources">Resources<b class="caret"></b></a>
+                            <ul class="dropdown-menu megamenu">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-3">
+                                            <h5>Resources</h5>
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="nav-item"><a href="gallery" class="nav-link" id="photos">Photos</a></li>
+                                                <li class="nav-item"><a href="event-reports" class="nav-link" id="reports">Event Reports</a></li>
+                                                <!-- <li class="nav-item"><a href="resources/student_branch_development_calendar.pdf" target="_blank" class="nav-link" id="ppt">Student Branch Development Calendar</a></li> -->
+                                                <li class="nav-item"><a href="https://students.ieee.org/about-virtual-speakers/" target="_blank" class="nav-link" id="ppt">Virtual Speakers</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="nav-item"><a href="https://supportcenter.ieee.org/app/answers/list" class="nav-link" id="photos">Support Center</a></li>
+                                                <li class="nav-item"><a href="resources/IEEE R10 Vtools.pptx" class="nav-link" id="photos">IEEE R10 VTools (PPTs)</a></li>
+                                                <li class="nav-item"><a href="IEEE Master email.html" class="nav-link" id="photos">Student Branch Leadership Newsletter (April 2021)</a></li>
+                                                <li class="nav-item"><a href="IEEE-Membership.pdf" target="_blank" class="nav-link" id="photos">How to be an IEEE Student Member</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown menu-large">
+                            <a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link" id="events">Events<b class="caret"></b></a>
+                            <ul class="dropdown-menu megamenu">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-3">
+                                            <h5>Events</h5>
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="nav-item"><a href="events" class="nav-link" id="event">Upcoming & Previous Events</a></li>
+                                                <li class="nav-item"><a href="unlock-15" class="nav-link" id="unlock">Unlock&nbsp;15.0</a></li>
+                                                <li class="nav-item"><a href="evolvex-21" class="nav-link" id="evolvex">Evolvex</a></li>
+                                                <li class="nav-item"><a href="igen" class="nav-link" id="ssc">IGEN 2020</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <h5>Congress</h5>
+                                            <ul class="list-unstyled mb-3">
+                                                <li class="nav-item"><a href="adithyam" class="nav-link" id="ssc">Adithyam 2021</a></li>
+                                                <li class="nav-item"><a href="parjanya" class="nav-link" id="parjanya">Parjanya 2021</a></li>
+                                                <li class="nav-item"><a href="ssc" class="nav-link" id="ssc">SSC 2020</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-12 col-lg-6">
+                                            <div class="banner">
+                                                <a href="https://syp.computer.org/gsc"><img src="images/banner/gsc.jpg" style="height:200px;" alt="" class="img img-fluid"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="contact-us" class="nav-link" id="contact">Contact&nbsp;Us</a></li>
+                        <li class="nav-item"><a href="unlock-15" class="nav-link" id="unlock">Unlock&nbsp;15.0</a></li>
+                        <li class="nav-item"><a href="evolvex-21" class="nav-link" id="evolvex">Evolvex</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <marquee width = "100%" onmouseover="this.stop();" onmouseout="this.start();" style="background:#DFF2FF;">Parjanya 2021 (Ananthapur & Guntur Sub-Section Congress). <a href='https://bit.ly/IEEE-HydSAC-PARJANYA'>Register Here</a></marquee> -->
 
-          <img src="images/sb_team/Amit.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Amit Kumar Yadav</h5>
+    </header>
 
-
+    <h1 class="head_start" data-aos="fade-down" data-aos-duration="1500">MEET OUR TEAM</h1>
+    <div class="breadcrumbs">
+        <div class="page-next">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="d-inline-block">
+                <ul class="breadcrumb  rounded mb-0">
+                    <li class="breadcrumb-item"><a class="gotohome" href="/sac" style="color:black">IEEE SB NITW SAC</a></li> <!-- Link to landing page -->
+                    <li class="breadcrumb-item" style="color:black">ABOUT</li>
+                    <li class="breadcrumb-item active" aria-current="page" style="color:#2C2891">DEPARTMENTS</li>
+                </ul>
+            </nav>
         </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Nishka.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Nishka Pandya</h5>
-
-
-        </div>
-
-
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Abdul.png" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Mohammed Abdul Muqeet</h5>
-
-
-        </div>
-        <div class="col-lg-4 col-md-4 text-center prof pl-0 pl-lg-100" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Shriya.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Shriyadita Nath</h5>
-
-
-        </div>
-        <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Hitesh.png" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Hitesh Sugandh</h5>
-
-
-        </div>
-        <div class="col-lg-4  text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Prasanna.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Vithanala Prasanna</h5>
-
-
-        </div>
-
-      </div>
-
-    </div>
-    <div class="container-fluid second">
-      <h2 data-aos="fade-up" data-aos-duration="1500">WEB DEVELOPMENT</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Parth1.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Parth Chaudhari</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Shamal.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Shamal Shaikh</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Rayyan.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Rayyan Mohiuddin</h5>
-
-
-        </div>
-
-
-        <div class="col-lg-3  text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Ashu.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Aswathy Suresh</h5>
-
-
-        </div>
-
-      </div>
-
-    </div>
-    <div class="container-fluid third">
-      <h2 data-aos="fade-up" data-aos-duration="1500">OPERATIONS AND EVM</h2>
-      <div class="row">
-
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-          <img src="images/sb_team/Deepak.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Deepak Rajesh</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Supriya.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Supriya</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Afrah.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Afrah Aleem</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Vishak.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Vishak Vaithi</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Ahmed Khan.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Ahmed Azeem Khan</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Apoorva.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Apoorva Sharma</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Manjima.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Manjima Karmakar</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Gitanjali.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Bandaru Gitanjali</h5>
-
-
-        </div>
-
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Neha.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Neha Varshaa</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Sibi.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Sibi Karthikeyan</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Aadhya.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Aadhya Komuravelly</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Gautam.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Gautam Prakash</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Saketh.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Saketh Puvvada</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Meghana.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Nannapaneni Meghana</h5>
-
-
-        </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Gauri.png" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Sai Satya Gauri</h5>
-
-
-        </div>
-        <div class="col-lg-3  text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Jash.png" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Jash Kadu</h5>
-
-
-        </div>
-      </div>
     </div>
 
 
+    <section class=team>
+
+        <div class="container-fluid first">
+            <h2 data-aos="fade-up" data-aos-duration="1500">DESIGN</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Lokesh.png" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Lokesh Tejavath</h5>
 
 
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
 
-    <div class="container-fluid fourth">
-      <h2 data-aos="fade-up" data-aos-duration="1500">FINANCE AND TREASURY</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Adith.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Adith</h5>
+                    <img src="images/sb_team/Amit.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Amit Kumar Yadav</h5>
 
 
-        </div>
-        <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
 
-          <img src="images/sb_team/Hemanth.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Hemanth</h5>
-
-
-        </div>
-        <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Ijas.png" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Ijas Azad</h5>
+                    <img src="images/sb_team/Nishka.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Nishka Pandya</h5>
 
 
-        </div>
+                </div>
 
 
-        <div class=" col-lg-4 col-md-6  text-center prof" data-aos="fade-up" data-aos-duration="1500">
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
 
-          <img src="images/sb_team/Abdul_rahman.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Abdul Rahman</h5>
-
-
-        </div>
-        <div class="col-lg-4 col-md-6  text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Sushyanth.png" class=" rounded-circle img-fluid profile1" alt="profile">
-          <h5>Sushyanth Sridhar</h5>
+                    <img src="images/sb_team/Abdul.png" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Mohammed Abdul Muqeet</h5>
 
 
-        </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center prof pl-0 pl-lg-100" data-aos="fade-up" data-aos-duration="1500">
 
-      </div>
-    </div>
-    <div class="container-fluid fifth">
-      <h2 data-aos="fade-up" data-aos-duration="1500">SOCIAL MEDIA</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Midesh.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Midesh Shankar</h5>
+                    <img src="images/sb_team/Shriya.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Shriyadita Nath</h5>
 
 
-        </div>
-        <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+                </div>
+                <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
 
-          <img src="images/sb_team/Avikshith.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Avikshith Irukulla</h5>
+                    <img src="images/sb_team/Hitesh.png" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Hitesh Sugandh</h5>
 
+
+                </div>
+                <div class="col-lg-4  text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Prasanna.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Vithanala Prasanna</h5>
+
+
+                </div>
+
+            </div>
 
         </div>
-        <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container-fluid second">
+            <h2 data-aos="fade-up" data-aos-duration="1500">WEB DEVELOPMENT</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
 
-          <img src="images/sb_team/Venkatesh.png" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Venkatesh Thota</h5>
+                    <img src="images/sb_team/Parth1.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Parth Chaudhari</h5>
 
 
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Shamal.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Shamal Shaikh</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Rayyan.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Rayyan Mohiuddin</h5>
+
+
+                </div>
+
+
+                <div class="col-lg-3  text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Ashu.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Aswathy Suresh</h5>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container-fluid third">
+            <h2 data-aos="fade-up" data-aos-duration="1500">OPERATIONS AND EVM</h2>
+            <div class="row">
+
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="images/sb_team/Deepak.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Deepak Rajesh</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Supriya.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Supriya</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Afrah.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Afrah Aleem</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Vishak.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Vishak Vaithi</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Ahmed Khan.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Ahmed Azeem Khan</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Apoorva.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Apoorva Sharma</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Manjima.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Manjima Karmakar</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Gitanjali.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Bandaru Gitanjali</h5>
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Neha.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Neha Varshaa</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Sibi.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Sibi Karthikeyan</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Aadhya.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Aadhya Komuravelly</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Gautam.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Gautam Prakash</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Saketh.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Saketh Puvvada</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Meghana.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Nannapaneni Meghana</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Gauri.png" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Sai Satya Gauri</h5>
+
+
+                </div>
+                <div class="col-lg-3  text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Jash.png" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Jash Kadu</h5>
+
+
+                </div>
+            </div>
         </div>
 
 
 
 
-      </div>
 
-    </div>
-    <div class="container-fluid sixth" data-aos="fade-up" data-aos-duration="1500">
-      <h2 data-aos="fade-up" data-aos-duration="1500">MTT-S SB</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container-fluid fourth">
+            <h2 data-aos="fade-up" data-aos-duration="1500">FINANCE AND TREASURY</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
 
-          <img src="images/sb_team/Bhavana.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Bhavana Bhimireddy</h5>
+                    <img src="images/sb_team/Adith.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Adith</h5>
 
+
+                </div>
+                <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Hemanth.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Hemanth</h5>
+
+
+                </div>
+                <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Ijas.png" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Ijas Azad</h5>
+
+
+                </div>
+
+
+                <div class=" col-lg-4 col-md-6  text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Abdul_rahman.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Abdul Rahman</h5>
+
+
+                </div>
+                <div class="col-lg-4 col-md-6  text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Sushyanth.png" class=" rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Sushyanth Sridhar</h5>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid fifth">
+            <h2 data-aos="fade-up" data-aos-duration="1500">SOCIAL MEDIA</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Midesh.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Midesh Shankar</h5>
+
+
+                </div>
+                <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Avikshith.jpeg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Avikshith Irukulla</h5>
+
+
+                </div>
+                <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Venkatesh.png" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Venkatesh Thota</h5>
+
+
+                </div>
+
+
+
+
+            </div>
 
         </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container-fluid sixth" data-aos="fade-up" data-aos-duration="1500">
+            <h2 data-aos="fade-up" data-aos-duration="1500">MTT-S SB</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
 
-          <img src="images/sb_team/Suneel_Mtech.JPG" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Suneel Varma</h5>
+                    <img src="images/sb_team/Bhavana.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Bhavana Bhimireddy</h5>
 
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Suneel_Mtech.JPG" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Suneel Varma</h5>
+
+
+                </div>
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Amit_Mtech.PNG" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Amit Kumar</h5>
+
+
+                </div>
+
+                <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Vaibhav.JPG" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Alluri Vaibhav</h5>
+
+
+                </div>
+
+                <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Ramesh.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Ramesh A</h5>
+
+
+                </div>
+                <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Aparna_Mtech.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Elagandula Aparna</h5>
+
+
+                </div>
+                <div class="col-lg-4 col-md-6 text-center prof" data-aos="fade-up" data-aos-duration="1500">
+
+                    <img src="images/sb_team/Gopi_Mtech.jpg" class="rounded-circle img-fluid profile1" alt="profile">
+                    <h5>Gopireddy Palguna Kumar Reddy</h5>
+
+
+                </div>
+
+
+
+
+            </div>
 
         </div>
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Amit_Mtech.PNG" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Amit Kumar</h5>
-
-
-        </div>
-
-        <div class="col-lg-3 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Vaibhav.JPG" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Alluri Vaibhav</h5>
-
-
-        </div>
-
-        <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Ramesh.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Ramesh A</h5>
-
-
-        </div>
-        <div class="col-lg-4 col-md-4 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Aparna_Mtech.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Elagandula Aparna</h5>
-
-
-        </div>
-        <div class="col-lg-4 col-md-6 text-center prof" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="images/sb_team/Gopi_Mtech.jpg" class="rounded-circle img-fluid profile1" alt="profile">
-          <h5>Gopireddy Palguna Kumar Reddy</h5>
-
-
-        </div>
+        <!--footer-->
+        <a class="gotopbtn" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 
 
 
 
-      </div>
+    </section>
 
-    </div>
-    <!--footer-->
-    <a class="gotopbtn" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-
-
-
-
-  </section>
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
