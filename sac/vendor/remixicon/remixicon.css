@@ -124,9 +124,9 @@
 .ri-arrow-drop-left-fill:before { content: "\ea4f"; }
 .ri-arrow-drop-left-line:before { content: "\ea50"; }
 .ri-arrow-drop-right-fill:before { content: "\ea51"; }
-.ri-arrow-drop-right-line:before { content: "\ea52"; }
+/*.ri-arrow-drop-right-line:before { content: "\ea52"; }*/
 .ri-arrow-drop-up-fill:before { content: "\ea53"; }
-.ri-arrow-drop-up-line:before { content: "\ea54"; }
+.ri-arrow-drop-up-line:before { content: "\ea54";  }
 .ri-arrow-go-back-fill:before { content: "\ea55"; }
 .ri-arrow-go-back-line:before { content: "\ea56"; }
 .ri-arrow-go-forward-fill:before { content: "\ea57"; }
