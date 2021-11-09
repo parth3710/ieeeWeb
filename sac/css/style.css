@@ -74,14 +74,14 @@ a.text-primary:focus {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 700;
-    padding: 10px 15px !important;
+    padding: 10px 35px !important;
     color: #555;
     font-size: 14px;
     font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 @media (max-width: 991.98px) {
     .navbar .navbar-nav > .nav-item > .nav-link {
-        padding: 10px 15px !important;
+        padding: 10px 35px !important;
     }
     .navbar .dropdown-menu {
         position: relative !important;
