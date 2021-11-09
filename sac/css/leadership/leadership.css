@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+@media (max-width: 768px) {
+  .first {
+    margin-left: 0 !important;
+  }
+    #navigation {
+        margin-left: 80px;
+    }
+}
+header .container {
+    margin: 5px;
+    width: 100%;
+}
+#top {
+    background: #f0f8ff;
+    padding: 10px 30px 10px 0;
+    font-size: 10px;
+    text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  position: relative;
+  background-color: aliceblue;
+}
+.breadcrumb {
+  background-color: aliceblue;
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.chevron-right {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.home {
+  color: black;
+}
+.breadcrumb-item {
+  font-weight: 700;
+  display: inline-block;
+}
+.breadcrumb-item.active {
+  color: #007bff;
+}
+.breadcrumb-item :hover {
+  text-decoration: none;
+  color: #007bff;
+}
+.title {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.title::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  padding-top: 1%;
+  border-bottom: 3px solid navy;
+}
+.container {
+  margin: 0% 11%;
+  margin-bottom: 5%;
+}
+.avatar-fac {
+  height: 180px;
+  width: 180px;
+  margin-top: 3%;
+}
+.fac {
+  margin-bottom: 2%;
+}
+.first {
+  margin-left: 15%;
+}
+.lead {
+  margin-bottom: 2%;
+}
+.deplead {
+  margin-bottom: 4%;
+}
+.otherlead {
+  margin-bottom: 5%;
+}
+.card {
+  margin: 0 !important;
+  align-items: center;
+  border: none;
+  background: aliceblue;
+}
+.avatar {
+  height: 180px;
+  width: 180px;
+  margin-top: 5%;
+}
+small {
+  color: navy;
+}
+.scroll-top {
+  position: absolute;
+  top: 120vh;
+  bottom: 2rem;
+  right: 1rem;
+}
+
+.scroll-toplink {
+  position: sticky;
+  top: 85vh;
+  padding: 1rem;
+  color: #007bff;
+}
