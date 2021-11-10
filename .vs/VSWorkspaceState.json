@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\sac"
+    "\\sac",
+    "\\sac\\css",
+    "\\sac\\css\\sb_team",
+    "\\sac\\favicon",
+    "\\sac\\fonts",
+    "\\sac\\images",
+    "\\sac\\vendor",
+    "\\sac\\vendor\\remixicon"
   ],
-  "SelectedNode": "\\sac\\gallery.html",
+  "SelectedNode": "\\sac\\about-sac.html",
   "PreviewInSolutionExplorer": false
 }
