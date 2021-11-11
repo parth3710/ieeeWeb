@@ -190,7 +190,7 @@ body {
 
 .title {
   margin-top: 4%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   letter-spacing: 1px;
   text-align: center;
   font-family: "Merriweather";
@@ -204,6 +204,8 @@ body {
   border-bottom: 3px solid black;
 }
 .content {
+  /* margin-left: 0%;
+  margin-right: 0%; */
   margin-bottom: 5%;
 }
 .card {
@@ -214,14 +216,24 @@ body {
   width: 180px;
   margin-top: 3%;
 }
-.fac {
-  margin-bottom: 2%;
+.fac_lead {
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+.other_fac {
+  margin-bottom: 4%;
+}
+.faculty {
+  margin-left: 3%;
+}
+.fac-body {
+  width: 300px;
 }
 .first {
   margin-left: 15%;
 }
 .lead {
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 .deplead {
   margin-bottom: 4%;
@@ -394,4 +406,7 @@ small {
   width: 36px;
   line-height: 34px;
   padding: 0;
+}
+a {
+  text-decoration: none !important;
 }
