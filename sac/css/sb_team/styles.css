@@ -300,7 +300,20 @@ h6{
     display: none;
 }
 
-
+.card {
+  margin: 0 !important;
+  align-items: center;
+  border: none;
+  background: aliceblue;
+}
+.card {
+  text-align: center;
+}
+.avatar {
+  height: 170px;
+  width: 170px;
+  margin-top: 3%;
+}
 
 .team {
   margin: 40px 0 60px 0;
@@ -370,6 +383,9 @@ h5 {
 }
 img{
 
+}
+.first{
+  margin-bottom: 5%;
 }
 /*--------------------------------------------------------------
 # Footer
